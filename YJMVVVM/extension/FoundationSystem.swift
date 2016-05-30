@@ -18,8 +18,10 @@ extension String {
         }
         return nil
     }
-    func  length() -> Int {
-        return self.lengthOfBytesUsingEncoding(NSUTF8StringEncoding)
+    var length:Int {
+        get {
+            return self.lengthOfBytesUsingEncoding(NSUTF8StringEncoding)
+        }
     }
 }
 

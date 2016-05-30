@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import SSKeychain
 import UIKit
 let  KEY_CHAIN_SERVERNAME = NSBundle.mainBundle().bundleIdentifier
 let  deviceTokenKey  = "deviceTokenKey"
@@ -45,14 +44,14 @@ class JDHttpUtils {
     }
     
     private static func deviceUUID()->String {
-        
-        let devToken = SSKeychain.passwordForService(KEY_CHAIN_SERVERNAME,account:deviceTokenKey)
-        if devToken != nil {
-            return devToken
-        }
-        let  result = NSUUID().UUIDString
-        SSKeychain.setPassword(result, forService: KEY_CHAIN_SERVERNAME, account: deviceTokenKey)
-        return result;
+        return ""
+//        let devToken = SSKeychain.passwordForService(KEY_CHAIN_SERVERNAME,account:deviceTokenKey)
+//        if devToken != nil {
+//            return devToken
+//        }
+//        let  result = NSUUID().UUIDString
+//        SSKeychain.setPassword(result, forService: KEY_CHAIN_SERVERNAME, account: deviceTokenKey)
+//        return result;
     }
     
     private static func createMd5Sign(dict:[String:String])->String {
@@ -74,18 +73,19 @@ class JDHttpUtils {
 
     }
     private static func md5(str:String )->String{
-        let cStr = str.cStringUsingEncoding(NSUTF8StringEncoding);
-        let strLen = CC_LONG(str.lengthOfBytesUsingEncoding(NSUTF8StringEncoding))
-        let digestLen = Int(CC_MD5_DIGEST_LENGTH)
-        let result = UnsafeMutablePointer <CUnsignedChar>.alloc(digestLen);
-        CC_MD5(cStr!, strLen, result);
-        
-        var hash = "";
-        for i in 0 ..< digestLen {
-           hash = String(format: "%@%02x", hash, result[i])
-        }
-        result.destroy();
-        return  hash;
+//        let cStr = str.cStringUsingEncoding(NSUTF8StringEncoding);
+//        let strLen = CC_LONG(str.lengthOfBytesUsingEncoding(NSUTF8StringEncoding))
+//        let digestLen = Int(CC_MD5_DIGEST_LENGTH)
+//        let result = UnsafeMutablePointer <CUnsignedChar>.alloc(digestLen);
+//        CC_MD5(cStr!, strLen, result);
+//        
+//        var hash = "";
+//        for i in 0 ..< digestLen {
+//           hash = String(format: "%@%02x", hash, result[i])
+//        }
+//        result.destroy();
+//        return  hash;
+        return ""
     }
     
 

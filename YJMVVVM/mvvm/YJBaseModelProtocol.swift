@@ -11,3 +11,15 @@ protocol YJBaseModelProtocol {
     
     func sendNetworkRequest(callback: ((httpCode: HttpCodeStatus) -> Void))
 }
+
+extension YJBaseModelProtocol {
+    
+    func sendNetworkRequest(callback: ((httpCode: HttpCodeStatus) -> Void)) {
+        
+    }
+}
+
+class BaseModel:YJBaseModelProtocol {
+    
+}
+

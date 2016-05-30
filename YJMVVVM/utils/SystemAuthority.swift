@@ -104,7 +104,7 @@ class SystemAuthority {
         backView.snp_makeConstraints { (make) -> Void in
             make.edges.equalTo(EdgeInsetsZero)
         }
-        let tipLab = UILabel.creatLab(tip, font: UIFont.systemFontOfText1Font(), titleColor: UIColor.systemWenZiHeader1())
+        let tipLab = creatLab(tip, font: UIFont.systemFontOfText1Font(), titleColor: UIColor.systemWenZiHeader1())
         tipLab.numberOfLines = 0
         backView.addSubview(tipLab)
         tipLab.snp_makeConstraints { (make) -> Void in

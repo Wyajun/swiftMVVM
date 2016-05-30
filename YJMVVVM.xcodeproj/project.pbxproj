@@ -9,11 +9,62 @@
 /* Begin PBXBuildFile section */
 		4F37E8CB1CEC52FB003CE229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E8CA1CEC52FB003CE229 /* AppDelegate.swift */; };
 		4F37E8CD1CEC52FB003CE229 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E8CC1CEC52FB003CE229 /* ViewController.swift */; };
-		4F37E8D01CEC52FB003CE229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F37E8CE1CEC52FB003CE229 /* Main.storyboard */; };
 		4F37E8D21CEC52FB003CE229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F37E8D11CEC52FB003CE229 /* Assets.xcassets */; };
-		4F37E8D51CEC52FB003CE229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F37E8D31CEC52FB003CE229 /* LaunchScreen.storyboard */; };
 		4F37E8E01CEC52FB003CE229 /* YJMVVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E8DF1CEC52FB003CE229 /* YJMVVVMTests.swift */; };
 		4F37E8EB1CEC52FB003CE229 /* YJMVVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E8EA1CEC52FB003CE229 /* YJMVVVMUITests.swift */; };
+		4F37E8F91CEC5381003CE229 /* YJAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E8F81CEC5381003CE229 /* YJAppDelegate.swift */; };
+		4F37E9411CEC58A7003CE229 /* CreatUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9021CEC58A7003CE229 /* CreatUIView.swift */; };
+		4F37E9421CEC58A7003CE229 /* FoundationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9031CEC58A7003CE229 /* FoundationSystem.swift */; };
+		4F37E9431CEC58A7003CE229 /* JDThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9041CEC58A7003CE229 /* JDThread.swift */; };
+		4F37E9441CEC58A7003CE229 /* JDViewControllerSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9051CEC58A7003CE229 /* JDViewControllerSystem.swift */; };
+		4F37E9451CEC58A7003CE229 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9061CEC58A7003CE229 /* KeyBoardView.swift */; };
+		4F37E9471CEC58A7003CE229 /* Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9091CEC58A7003CE229 /* Refresh.swift */; };
+		4F37E9491CEC58A7003CE229 /* UIColorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E90B1CEC58A7003CE229 /* UIColorSystem.swift */; };
+		4F37E94A1CEC58A7003CE229 /* UIDeviceSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E90C1CEC58A7003CE229 /* UIDeviceSystem.swift */; };
+		4F37E94B1CEC58A7003CE229 /* UIFontSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E90D1CEC58A7003CE229 /* UIFontSystem.swift */; };
+		4F37E94C1CEC58A7003CE229 /* CommontHttpCallBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E90F1CEC58A7003CE229 /* CommontHttpCallBack.swift */; };
+		4F37E94D1CEC58A7003CE229 /* HttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9101CEC58A7003CE229 /* HttpRequestManager.swift */; };
+		4F37E94E1CEC58A7003CE229 /* HttpResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9111CEC58A7003CE229 /* HttpResult.swift */; };
+		4F37E94F1CEC58A7003CE229 /* JDHttpMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9121CEC58A7003CE229 /* JDHttpMgr.swift */; };
+		4F37E9501CEC58A7003CE229 /* JDHttpUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9131CEC58A7003CE229 /* JDHttpUtils.swift */; };
+		4F37E9511CEC58A7003CE229 /* JDUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9151CEC58A7003CE229 /* JDUserManager.swift */; };
+		4F37E9521CEC58A7003CE229 /* TConfigMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9161CEC58A7003CE229 /* TConfigMgr.swift */; };
+		4F37E9531CEC58A7003CE229 /* TMapMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9171CEC58A7003CE229 /* TMapMgr.swift */; };
+		4F37E9541CEC58A7003CE229 /* TUserManagerToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9181CEC58A7003CE229 /* TUserManagerToken.swift */; };
+		4F37E9551CEC58A7003CE229 /* JDNaviGator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E91A1CEC58A7003CE229 /* JDNaviGator.swift */; };
+		4F37E9561CEC58A7003CE229 /* JDViewControllerMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E91B1CEC58A7003CE229 /* JDViewControllerMgr.swift */; };
+		4F37E9571CEC58A7003CE229 /* YJBaseModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E91D1CEC58A7003CE229 /* YJBaseModelProtocol.swift */; };
+		4F37E9581CEC58A7003CE229 /* YJBaseViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E91E1CEC58A7003CE229 /* YJBaseViewControllerProtocol.swift */; };
+		4F37E9591CEC58A7003CE229 /* YJBaseViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E91F1CEC58A7003CE229 /* YJBaseViewProtocol.swift */; };
+		4F37E95A1CEC58A7003CE229 /* JDMainThemeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9211CEC58A7003CE229 /* JDMainThemeUtil.swift */; };
+		4F37E95B1CEC58A7003CE229 /* JDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9231CEC58A7003CE229 /* JDTimer.swift */; };
+		4F37E95C1CEC58A7003CE229 /* JDUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9241CEC58A7003CE229 /* JDUtil.swift */; };
+		4F37E95E1CEC58A7003CE229 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9271CEC58A7003CE229 /* Reachability.swift */; };
+		4F37E95F1CEC58A7003CE229 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9281CEC58A7003CE229 /* Resource.swift */; };
+		4F37E9601CEC58A7003CE229 /* SystemAuthority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9291CEC58A7003CE229 /* SystemAuthority.swift */; };
+		4F37E9621CEC58A7003CE229 /* CirCleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E92D1CEC58A7003CE229 /* CirCleView.swift */; };
+		4F37E9631CEC58A7003CE229 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E92E1CEC58A7003CE229 /* GridView.swift */; };
+		4F37E9641CEC58A7003CE229 /* JDAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E92F1CEC58A7003CE229 /* JDAlertController.swift */; };
+		4F37E9651CEC58A7003CE229 /* JDAutoLayoutScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9301CEC58A7003CE229 /* JDAutoLayoutScrollView.swift */; };
+		4F37E9661CEC58A7003CE229 /* JDNavUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9311CEC58A7003CE229 /* JDNavUIViewController.swift */; };
+		4F37E9671CEC58A7003CE229 /* JDTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9321CEC58A7003CE229 /* JDTableHeaderView.swift */; };
+		4F37E96A1CEC58A7003CE229 /* TDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9361CEC58A7003CE229 /* TDatePicker.swift */; };
+		4F37E96B1CEC58A7003CE229 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9371CEC58A7003CE229 /* Toast.swift */; };
+		4F37E96D1CEC58A7003CE229 /* TouchImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E93A1CEC58A7003CE229 /* TouchImageView.swift */; };
+		4F37E96E1CEC58A7003CE229 /* TTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E93B1CEC58A7003CE229 /* TTouchView.swift */; };
+		4F37E96F1CEC58A7003CE229 /* UIButtonLeft_Right.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E93C1CEC58A7003CE229 /* UIButtonLeft_Right.swift */; };
+		4F37E9701CEC58A7003CE229 /* UIButtonUp_down.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E93D1CEC58A7003CE229 /* UIButtonUp_down.swift */; };
+		4F37E9711CEC58A7003CE229 /* ViewEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E93E1CEC58A7003CE229 /* ViewEmpty.swift */; };
+		4F37E9721CEC58A7003CE229 /* ViewError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E93F1CEC58A7003CE229 /* ViewError.swift */; };
+		4F37E9731CEC58A7003CE229 /* ViewHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9401CEC58A7003CE229 /* ViewHUD.swift */; };
+		4F37E9751CEC5AC7003CE229 /* YJImageMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9741CEC5AC7003CE229 /* YJImageMgr.swift */; };
+		4F37E9771CEC616E003CE229 /* NoticeMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9761CEC616E003CE229 /* NoticeMgr.swift */; };
+		4F37E9791CEC70DC003CE229 /* const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E9781CEC70DC003CE229 /* const.swift */; };
+		4F37E97B1CED5528003CE229 /* YJTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E97A1CED5528003CE229 /* YJTextView.swift */; };
+		4F37E97D1CED68DA003CE229 /* YJTouchImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E97C1CED68DA003CE229 /* YJTouchImage.swift */; };
+		4F37E97F1CED6BDC003CE229 /* YJTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E97E1CED6BDC003CE229 /* YJTime.swift */; };
+		4F485DED1CFC279C00F982AC /* YJTableBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F485DEC1CFC279C00F982AC /* YJTableBaseView.swift */; };
+		D1665B7ACC34D2FFDA1108B3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685AC3B5F66B8F0690A57902 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +85,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		261EBA38E83D66B3D8DE629D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4F37E8C71CEC52FB003CE229 /* YJMVVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJMVVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F37E8CA1CEC52FB003CE229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F37E8CC1CEC52FB003CE229 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4F37E8CF1CEC52FB003CE229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F37E8D11CEC52FB003CE229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F37E8D41CEC52FB003CE229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F37E8D61CEC52FB003CE229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F37E8DB1CEC52FB003CE229 /* YJMVVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJMVVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F37E8DF1CEC52FB003CE229 /* YJMVVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJMVVVMTests.swift; sourceTree = "<group>"; };
@@ -47,6 +97,61 @@
 		4F37E8E61CEC52FB003CE229 /* YJMVVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJMVVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F37E8EA1CEC52FB003CE229 /* YJMVVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJMVVVMUITests.swift; sourceTree = "<group>"; };
 		4F37E8EC1CEC52FB003CE229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F37E8F81CEC5381003CE229 /* YJAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJAppDelegate.swift; sourceTree = "<group>"; };
+		4F37E9021CEC58A7003CE229 /* CreatUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatUIView.swift; sourceTree = "<group>"; };
+		4F37E9031CEC58A7003CE229 /* FoundationSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationSystem.swift; sourceTree = "<group>"; };
+		4F37E9041CEC58A7003CE229 /* JDThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDThread.swift; sourceTree = "<group>"; };
+		4F37E9051CEC58A7003CE229 /* JDViewControllerSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDViewControllerSystem.swift; sourceTree = "<group>"; };
+		4F37E9061CEC58A7003CE229 /* KeyBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
+		4F37E9091CEC58A7003CE229 /* Refresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Refresh.swift; sourceTree = "<group>"; };
+		4F37E90B1CEC58A7003CE229 /* UIColorSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorSystem.swift; sourceTree = "<group>"; };
+		4F37E90C1CEC58A7003CE229 /* UIDeviceSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceSystem.swift; sourceTree = "<group>"; };
+		4F37E90D1CEC58A7003CE229 /* UIFontSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontSystem.swift; sourceTree = "<group>"; };
+		4F37E90F1CEC58A7003CE229 /* CommontHttpCallBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommontHttpCallBack.swift; sourceTree = "<group>"; };
+		4F37E9101CEC58A7003CE229 /* HttpRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequestManager.swift; sourceTree = "<group>"; };
+		4F37E9111CEC58A7003CE229 /* HttpResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpResult.swift; sourceTree = "<group>"; };
+		4F37E9121CEC58A7003CE229 /* JDHttpMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDHttpMgr.swift; sourceTree = "<group>"; };
+		4F37E9131CEC58A7003CE229 /* JDHttpUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDHttpUtils.swift; sourceTree = "<group>"; };
+		4F37E9151CEC58A7003CE229 /* JDUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDUserManager.swift; sourceTree = "<group>"; };
+		4F37E9161CEC58A7003CE229 /* TConfigMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TConfigMgr.swift; sourceTree = "<group>"; };
+		4F37E9171CEC58A7003CE229 /* TMapMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMapMgr.swift; sourceTree = "<group>"; };
+		4F37E9181CEC58A7003CE229 /* TUserManagerToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUserManagerToken.swift; sourceTree = "<group>"; };
+		4F37E91A1CEC58A7003CE229 /* JDNaviGator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDNaviGator.swift; sourceTree = "<group>"; };
+		4F37E91B1CEC58A7003CE229 /* JDViewControllerMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDViewControllerMgr.swift; sourceTree = "<group>"; };
+		4F37E91D1CEC58A7003CE229 /* YJBaseModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBaseModelProtocol.swift; sourceTree = "<group>"; };
+		4F37E91E1CEC58A7003CE229 /* YJBaseViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBaseViewControllerProtocol.swift; sourceTree = "<group>"; };
+		4F37E91F1CEC58A7003CE229 /* YJBaseViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBaseViewProtocol.swift; sourceTree = "<group>"; };
+		4F37E9211CEC58A7003CE229 /* JDMainThemeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDMainThemeUtil.swift; sourceTree = "<group>"; };
+		4F37E9221CEC58A7003CE229 /* JDSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSingleton.h; sourceTree = "<group>"; };
+		4F37E9231CEC58A7003CE229 /* JDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDTimer.swift; sourceTree = "<group>"; };
+		4F37E9241CEC58A7003CE229 /* JDUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDUtil.swift; sourceTree = "<group>"; };
+		4F37E9271CEC58A7003CE229 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		4F37E9281CEC58A7003CE229 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		4F37E9291CEC58A7003CE229 /* SystemAuthority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemAuthority.swift; sourceTree = "<group>"; };
+		4F37E92D1CEC58A7003CE229 /* CirCleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirCleView.swift; sourceTree = "<group>"; };
+		4F37E92E1CEC58A7003CE229 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		4F37E92F1CEC58A7003CE229 /* JDAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDAlertController.swift; sourceTree = "<group>"; };
+		4F37E9301CEC58A7003CE229 /* JDAutoLayoutScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDAutoLayoutScrollView.swift; sourceTree = "<group>"; };
+		4F37E9311CEC58A7003CE229 /* JDNavUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDNavUIViewController.swift; sourceTree = "<group>"; };
+		4F37E9321CEC58A7003CE229 /* JDTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDTableHeaderView.swift; sourceTree = "<group>"; };
+		4F37E9361CEC58A7003CE229 /* TDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDatePicker.swift; sourceTree = "<group>"; };
+		4F37E9371CEC58A7003CE229 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		4F37E93A1CEC58A7003CE229 /* TouchImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchImageView.swift; sourceTree = "<group>"; };
+		4F37E93B1CEC58A7003CE229 /* TTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTouchView.swift; sourceTree = "<group>"; };
+		4F37E93C1CEC58A7003CE229 /* UIButtonLeft_Right.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonLeft_Right.swift; sourceTree = "<group>"; };
+		4F37E93D1CEC58A7003CE229 /* UIButtonUp_down.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonUp_down.swift; sourceTree = "<group>"; };
+		4F37E93E1CEC58A7003CE229 /* ViewEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEmpty.swift; sourceTree = "<group>"; };
+		4F37E93F1CEC58A7003CE229 /* ViewError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewError.swift; sourceTree = "<group>"; };
+		4F37E9401CEC58A7003CE229 /* ViewHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewHUD.swift; sourceTree = "<group>"; };
+		4F37E9741CEC5AC7003CE229 /* YJImageMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJImageMgr.swift; sourceTree = "<group>"; };
+		4F37E9761CEC616E003CE229 /* NoticeMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeMgr.swift; sourceTree = "<group>"; };
+		4F37E9781CEC70DC003CE229 /* const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = const.swift; sourceTree = "<group>"; };
+		4F37E97A1CED5528003CE229 /* YJTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJTextView.swift; sourceTree = "<group>"; };
+		4F37E97C1CED68DA003CE229 /* YJTouchImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJTouchImage.swift; sourceTree = "<group>"; };
+		4F37E97E1CED6BDC003CE229 /* YJTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJTime.swift; sourceTree = "<group>"; };
+		4F485DEC1CFC279C00F982AC /* YJTableBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJTableBaseView.swift; sourceTree = "<group>"; };
+		685AC3B5F66B8F0690A57902 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B556BF79A7D80586FE1D898 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1665B7ACC34D2FFDA1108B3 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +180,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		218C63D57E0402C39324E099 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B556BF79A7D80586FE1D898 /* Pods.debug.xcconfig */,
+				261EBA38E83D66B3D8DE629D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4F37E8BE1CEC52FB003CE229 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +196,8 @@
 				4F37E8DE1CEC52FB003CE229 /* YJMVVVMTests */,
 				4F37E8E91CEC52FB003CE229 /* YJMVVVMUITests */,
 				4F37E8C81CEC52FB003CE229 /* Products */,
+				218C63D57E0402C39324E099 /* Pods */,
+				7C60081F879142B270F5CD67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +214,17 @@
 		4F37E8C91CEC52FB003CE229 /* YJMVVVM */ = {
 			isa = PBXGroup;
 			children = (
+				4F37E9011CEC58A7003CE229 /* extension */,
+				4F37E90E1CEC58A7003CE229 /* httpManger */,
+				4F37E9141CEC58A7003CE229 /* manger */,
+				4F37E91C1CEC58A7003CE229 /* mvvm */,
+				4F37E9201CEC58A7003CE229 /* utils */,
+				4F37E92C1CEC58A7003CE229 /* view */,
 				4F37E8CA1CEC52FB003CE229 /* AppDelegate.swift */,
+				4F37E8F81CEC5381003CE229 /* YJAppDelegate.swift */,
 				4F37E8CC1CEC52FB003CE229 /* ViewController.swift */,
-				4F37E8CE1CEC52FB003CE229 /* Main.storyboard */,
+				4F37E9781CEC70DC003CE229 /* const.swift */,
 				4F37E8D11CEC52FB003CE229 /* Assets.xcassets */,
-				4F37E8D31CEC52FB003CE229 /* LaunchScreen.storyboard */,
 				4F37E8D61CEC52FB003CE229 /* Info.plist */,
 			);
 			path = YJMVVVM;
@@ -125,6 +248,115 @@
 			path = YJMVVVMUITests;
 			sourceTree = "<group>";
 		};
+		4F37E9011CEC58A7003CE229 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				4F37E9021CEC58A7003CE229 /* CreatUIView.swift */,
+				4F37E9031CEC58A7003CE229 /* FoundationSystem.swift */,
+				4F37E9041CEC58A7003CE229 /* JDThread.swift */,
+				4F37E9051CEC58A7003CE229 /* JDViewControllerSystem.swift */,
+				4F37E9061CEC58A7003CE229 /* KeyBoardView.swift */,
+				4F37E97E1CED6BDC003CE229 /* YJTime.swift */,
+				4F37E9091CEC58A7003CE229 /* Refresh.swift */,
+				4F37E90B1CEC58A7003CE229 /* UIColorSystem.swift */,
+				4F37E90C1CEC58A7003CE229 /* UIDeviceSystem.swift */,
+				4F37E90D1CEC58A7003CE229 /* UIFontSystem.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		4F37E90E1CEC58A7003CE229 /* httpManger */ = {
+			isa = PBXGroup;
+			children = (
+				4F37E90F1CEC58A7003CE229 /* CommontHttpCallBack.swift */,
+				4F37E9101CEC58A7003CE229 /* HttpRequestManager.swift */,
+				4F37E9111CEC58A7003CE229 /* HttpResult.swift */,
+				4F37E9121CEC58A7003CE229 /* JDHttpMgr.swift */,
+				4F37E9131CEC58A7003CE229 /* JDHttpUtils.swift */,
+			);
+			path = httpManger;
+			sourceTree = "<group>";
+		};
+		4F37E9141CEC58A7003CE229 /* manger */ = {
+			isa = PBXGroup;
+			children = (
+				4F37E9151CEC58A7003CE229 /* JDUserManager.swift */,
+				4F37E9161CEC58A7003CE229 /* TConfigMgr.swift */,
+				4F37E9171CEC58A7003CE229 /* TMapMgr.swift */,
+				4F37E9181CEC58A7003CE229 /* TUserManagerToken.swift */,
+				4F37E9191CEC58A7003CE229 /* VCMgr */,
+			);
+			path = manger;
+			sourceTree = "<group>";
+		};
+		4F37E9191CEC58A7003CE229 /* VCMgr */ = {
+			isa = PBXGroup;
+			children = (
+				4F37E91A1CEC58A7003CE229 /* JDNaviGator.swift */,
+				4F37E91B1CEC58A7003CE229 /* JDViewControllerMgr.swift */,
+			);
+			path = VCMgr;
+			sourceTree = "<group>";
+		};
+		4F37E91C1CEC58A7003CE229 /* mvvm */ = {
+			isa = PBXGroup;
+			children = (
+				4F37E91D1CEC58A7003CE229 /* YJBaseModelProtocol.swift */,
+				4F37E91E1CEC58A7003CE229 /* YJBaseViewControllerProtocol.swift */,
+				4F37E91F1CEC58A7003CE229 /* YJBaseViewProtocol.swift */,
+				4F485DEC1CFC279C00F982AC /* YJTableBaseView.swift */,
+			);
+			path = mvvm;
+			sourceTree = "<group>";
+		};
+		4F37E9201CEC58A7003CE229 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				4F37E9211CEC58A7003CE229 /* JDMainThemeUtil.swift */,
+				4F37E9221CEC58A7003CE229 /* JDSingleton.h */,
+				4F37E9231CEC58A7003CE229 /* JDTimer.swift */,
+				4F37E9241CEC58A7003CE229 /* JDUtil.swift */,
+				4F37E9271CEC58A7003CE229 /* Reachability.swift */,
+				4F37E9281CEC58A7003CE229 /* Resource.swift */,
+				4F37E9291CEC58A7003CE229 /* SystemAuthority.swift */,
+				4F37E9741CEC5AC7003CE229 /* YJImageMgr.swift */,
+				4F37E9761CEC616E003CE229 /* NoticeMgr.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		4F37E92C1CEC58A7003CE229 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4F37E92D1CEC58A7003CE229 /* CirCleView.swift */,
+				4F37E92E1CEC58A7003CE229 /* GridView.swift */,
+				4F37E92F1CEC58A7003CE229 /* JDAlertController.swift */,
+				4F37E9301CEC58A7003CE229 /* JDAutoLayoutScrollView.swift */,
+				4F37E9311CEC58A7003CE229 /* JDNavUIViewController.swift */,
+				4F37E9321CEC58A7003CE229 /* JDTableHeaderView.swift */,
+				4F37E97A1CED5528003CE229 /* YJTextView.swift */,
+				4F37E9361CEC58A7003CE229 /* TDatePicker.swift */,
+				4F37E9371CEC58A7003CE229 /* Toast.swift */,
+				4F37E97C1CED68DA003CE229 /* YJTouchImage.swift */,
+				4F37E93A1CEC58A7003CE229 /* TouchImageView.swift */,
+				4F37E93B1CEC58A7003CE229 /* TTouchView.swift */,
+				4F37E93C1CEC58A7003CE229 /* UIButtonLeft_Right.swift */,
+				4F37E93D1CEC58A7003CE229 /* UIButtonUp_down.swift */,
+				4F37E93E1CEC58A7003CE229 /* ViewEmpty.swift */,
+				4F37E93F1CEC58A7003CE229 /* ViewError.swift */,
+				4F37E9401CEC58A7003CE229 /* ViewHUD.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7C60081F879142B270F5CD67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				685AC3B5F66B8F0690A57902 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +364,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F37E8EF1CEC52FB003CE229 /* Build configuration list for PBXNativeTarget "YJMVVVM" */;
 			buildPhases = (
+				672FD78CF7301A1CF27AF4F2 /* Check Pods Manifest.lock */,
 				4F37E8C31CEC52FB003CE229 /* Sources */,
 				4F37E8C41CEC52FB003CE229 /* Frameworks */,
 				4F37E8C51CEC52FB003CE229 /* Resources */,
+				E0603382EB57D3FB9D5F3F0A /* Embed Pods Frameworks */,
+				CA91AB103B8EDA9CF9E32303 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +464,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F37E8D51CEC52FB003CE229 /* LaunchScreen.storyboard in Resources */,
 				4F37E8D21CEC52FB003CE229 /* Assets.xcassets in Resources */,
-				4F37E8D01CEC52FB003CE229 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +484,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		672FD78CF7301A1CF27AF4F2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA91AB103B8EDA9CF9E32303 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0603382EB57D3FB9D5F3F0A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F37E8C31CEC52FB003CE229 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F37E95B1CEC58A7003CE229 /* JDTimer.swift in Sources */,
+				4F37E9601CEC58A7003CE229 /* SystemAuthority.swift in Sources */,
+				4F37E94B1CEC58A7003CE229 /* UIFontSystem.swift in Sources */,
+				4F37E9711CEC58A7003CE229 /* ViewEmpty.swift in Sources */,
+				4F37E9551CEC58A7003CE229 /* JDNaviGator.swift in Sources */,
+				4F37E9591CEC58A7003CE229 /* YJBaseViewProtocol.swift in Sources */,
+				4F37E94A1CEC58A7003CE229 /* UIDeviceSystem.swift in Sources */,
+				4F485DED1CFC279C00F982AC /* YJTableBaseView.swift in Sources */,
+				4F37E9531CEC58A7003CE229 /* TMapMgr.swift in Sources */,
+				4F37E9451CEC58A7003CE229 /* KeyBoardView.swift in Sources */,
+				4F37E9561CEC58A7003CE229 /* JDViewControllerMgr.swift in Sources */,
+				4F37E94C1CEC58A7003CE229 /* CommontHttpCallBack.swift in Sources */,
+				4F37E9771CEC616E003CE229 /* NoticeMgr.swift in Sources */,
+				4F37E9721CEC58A7003CE229 /* ViewError.swift in Sources */,
+				4F37E94F1CEC58A7003CE229 /* JDHttpMgr.swift in Sources */,
+				4F37E95E1CEC58A7003CE229 /* Reachability.swift in Sources */,
+				4F37E9431CEC58A7003CE229 /* JDThread.swift in Sources */,
+				4F37E96E1CEC58A7003CE229 /* TTouchView.swift in Sources */,
+				4F37E96F1CEC58A7003CE229 /* UIButtonLeft_Right.swift in Sources */,
+				4F37E9641CEC58A7003CE229 /* JDAlertController.swift in Sources */,
+				4F37E97D1CED68DA003CE229 /* YJTouchImage.swift in Sources */,
+				4F37E9541CEC58A7003CE229 /* TUserManagerToken.swift in Sources */,
+				4F37E96B1CEC58A7003CE229 /* Toast.swift in Sources */,
+				4F37E9471CEC58A7003CE229 /* Refresh.swift in Sources */,
+				4F37E9521CEC58A7003CE229 /* TConfigMgr.swift in Sources */,
+				4F37E94E1CEC58A7003CE229 /* HttpResult.swift in Sources */,
 				4F37E8CD1CEC52FB003CE229 /* ViewController.swift in Sources */,
+				4F37E94D1CEC58A7003CE229 /* HttpRequestManager.swift in Sources */,
+				4F37E95A1CEC58A7003CE229 /* JDMainThemeUtil.swift in Sources */,
+				4F37E8F91CEC5381003CE229 /* YJAppDelegate.swift in Sources */,
+				4F37E9751CEC5AC7003CE229 /* YJImageMgr.swift in Sources */,
+				4F37E9651CEC58A7003CE229 /* JDAutoLayoutScrollView.swift in Sources */,
+				4F37E9411CEC58A7003CE229 /* CreatUIView.swift in Sources */,
+				4F37E9491CEC58A7003CE229 /* UIColorSystem.swift in Sources */,
+				4F37E9731CEC58A7003CE229 /* ViewHUD.swift in Sources */,
+				4F37E9501CEC58A7003CE229 /* JDHttpUtils.swift in Sources */,
+				4F37E9421CEC58A7003CE229 /* FoundationSystem.swift in Sources */,
+				4F37E9581CEC58A7003CE229 /* YJBaseViewControllerProtocol.swift in Sources */,
+				4F37E96D1CEC58A7003CE229 /* TouchImageView.swift in Sources */,
+				4F37E9661CEC58A7003CE229 /* JDNavUIViewController.swift in Sources */,
+				4F37E9631CEC58A7003CE229 /* GridView.swift in Sources */,
+				4F37E9621CEC58A7003CE229 /* CirCleView.swift in Sources */,
+				4F37E95C1CEC58A7003CE229 /* JDUtil.swift in Sources */,
+				4F37E9701CEC58A7003CE229 /* UIButtonUp_down.swift in Sources */,
 				4F37E8CB1CEC52FB003CE229 /* AppDelegate.swift in Sources */,
+				4F37E9441CEC58A7003CE229 /* JDViewControllerSystem.swift in Sources */,
+				4F37E9511CEC58A7003CE229 /* JDUserManager.swift in Sources */,
+				4F37E95F1CEC58A7003CE229 /* Resource.swift in Sources */,
+				4F37E96A1CEC58A7003CE229 /* TDatePicker.swift in Sources */,
+				4F37E9791CEC70DC003CE229 /* const.swift in Sources */,
+				4F37E9571CEC58A7003CE229 /* YJBaseModelProtocol.swift in Sources */,
+				4F37E97B1CED5528003CE229 /* YJTextView.swift in Sources */,
+				4F37E9671CEC58A7003CE229 /* JDTableHeaderView.swift in Sources */,
+				4F37E97F1CED6BDC003CE229 /* YJTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +624,6 @@
 			targetProxy = 4F37E8E71CEC52FB003CE229 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4F37E8CE1CEC52FB003CE229 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F37E8CF1CEC52FB003CE229 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4F37E8D31CEC52FB003CE229 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F37E8D41CEC52FB003CE229 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4F37E8ED1CEC52FB003CE229 /* Debug */ = {
@@ -397,8 +711,10 @@
 		};
 		4F37E8F01CEC52FB003CE229 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B556BF79A7D80586FE1D898 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = YJMVVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wdtfw.ios.YJMVVVM;
@@ -408,8 +724,10 @@
 		};
 		4F37E8F11CEC52FB003CE229 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261EBA38E83D66B3D8DE629D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = YJMVVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wdtfw.ios.YJMVVVM;
@@ -482,6 +800,7 @@
 				4F37E8F11CEC52FB003CE229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F37E8F21CEC52FB003CE229 /* Build configuration list for PBXNativeTarget "YJMVVVMTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +809,7 @@
 				4F37E8F41CEC52FB003CE229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F37E8F51CEC52FB003CE229 /* Build configuration list for PBXNativeTarget "YJMVVVMUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +818,7 @@
 				4F37E8F71CEC52FB003CE229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

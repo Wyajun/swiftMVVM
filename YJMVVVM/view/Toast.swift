@@ -41,7 +41,7 @@ private class ToastMgr {
         toastDatas =  [ToastData]()
     }
     func showToastData(toastData:ToastData){
-        JDThread.JDSynchronized(toastDatas){
+        SynchronizedLock(toastDatas){
             self.toastDatas.append(toastData)
             
             if self.toastDatas.count == 1 {
@@ -67,7 +67,7 @@ private class ToastMgr {
         }
     }
     func getFirstToastData()->ToastData? {
-        JDThread.JDSynchronized(toastDatas){
+        SynchronizedLock(toastDatas){
             self.toastDatas.removeAtIndex(0)
         }
         return self.toastDatas.first
@@ -103,7 +103,7 @@ private class ToastMgr {
             make.bottom.equalTo(-bottomHeight)
         }
        
-        JDThread.JDAfterSecRun(toastData.showTimeSecondes){
+        afterSecRun(toastData.showTimeSecondes){
             backView.removeFromSuperview()
             var data = self.getFirstToastData()
             while data != nil {

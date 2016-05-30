@@ -13,115 +13,7 @@ func popViewController(animated:Bool) {
     JDViewControllerMgr.sharedInstance.popViewController(true)
 }
 
-func pushTChargeEnterpriseViewController(){
-   JDViewControllerMgr.sharedInstance.pushViewController("TChargeEnterpriseViewController", parame: "2132132323232")
-}
-func pushTFreeEnterpriseViewController(){
-    JDViewControllerMgr.sharedInstance.pushViewController("TFreeEnterpriseViewController", parame: "2132132323232")
-}
-func pushTInductionCashbackViewController(){
-    JDViewControllerMgr.sharedInstance.pushViewController("TInductionCashbackViewController", parame: "2132132323232")
-}
-func pushTInterviewViewController(){
-    JDViewControllerMgr.sharedInstance.pushViewController("TInterviewViewController", parame: "2132132323232")
-}
 
-func pushTCityListController(){
-    JDViewControllerMgr.sharedInstance.pushViewController("TCityListController", parame: nil)
-}
-
-func pushTWorkDetailViewController(workID:String)  {
-  JDViewControllerMgr.sharedInstance.pushViewController("TWorkDetailViewController", parame: workID)
-}
-
-func pushRegisteredViewController(isOther:Bool)  {
-  JDViewControllerMgr.sharedInstance.pushViewController("RegisteredViewController", parame: isOther)
-}
-
-func pushPerfectInforViewController(parame:[String:String]) {
-    JDViewControllerMgr.sharedInstance.pushViewController("JDPerfectInforViewController", parame: parame)
-    
-}
-func  presentTCityListController() {
-    JDViewControllerMgr.sharedInstance.presentViewController("TCityListController", parame: ["noSite":true], isNav: true)
-}
-
-func pushTApplyWorkViewController() {
-    JDViewControllerMgr.sharedInstance.pushViewController("TApplyWorkViewController", parame: nil)
-    
-}
-
-func pushTCollectWorkViewController() {
-    JDViewControllerMgr.sharedInstance.pushViewController("TCollectWorkViewController", parame: nil)
-    
-}
-
-func pushTChatViewController(chatModel:TChatModel)  {
-    JDViewControllerMgr.sharedInstance.pushViewController("TChatViewController", parame: chatModel)
-    
-}
-
-func pushTKeFuChatViewController() {
-    JDViewControllerMgr.sharedInstance.pushViewController("TKeFuChatViewController", parame: nil)
-}
-
-func pushTZiXunViewController() {
-     JDViewControllerMgr.sharedInstance.pushViewController("TZiXunViewController", parame: nil)
-}
-func pushTHuoDonViewController() {
-    JDViewControllerMgr.sharedInstance.pushViewController("THuoDonViewController", parame: nil)
-}
-
-func pushTZiXunDetailViewController(arid:JSWebData) {
-    JDViewControllerMgr.sharedInstance.pushViewController("JsWebViewController", parame: arid)
-}
-
-func pushTSiXinViewController() {
-    JDViewControllerMgr.sharedInstance.pushViewController("TSiXinViewController", parame: nil)
-}
-
-func pushTTongZhiChatViewController() {
-    JDViewControllerMgr.sharedInstance.pushViewController("TTongZhiChatViewController", parame: nil)
-}
-func pushTFuJingViewController() {
-    JDViewControllerMgr.sharedInstance.pushViewController("TFuJingViewController", parame: nil)
-}
-func pushTLianXiRenViewController() {
-    JDViewControllerMgr.sharedInstance.pushViewController("TLianXiRenViewController", parame: nil)
-}
-func pushTSendFriendViewController(parame:String?)  {
-     JDViewControllerMgr.sharedInstance.pushViewController("TSendFriendViewController", parame: parame)
-}
-
-func pushTFriendDetailViewController(freind:TFriendData) {
-    JDViewControllerMgr.sharedInstance.pushViewController("TFriendDetailViewController", parame: freind)
-}
-func pushTUserInfoViewController() {
-    JDViewControllerMgr.sharedInstance.pushViewController("TUserInfoViewController", parame: nil)
-}
-
-func pushTFriendPesonViewController(userId:String) {
-    JDViewControllerMgr.sharedInstance.pushViewController("TFriendPesonViewController", parame: userId)
-}
-func pushTUserInfoEditTextViewController(editData:TUserInfoEditTextData) {
-    JDViewControllerMgr.sharedInstance.pushViewController("TUserInfoEditTextViewController", parame: editData)
-}
-
-func pushTUserInfoEditSelectViewController(edit:TUserInfoEditSelectData) {
-    JDViewControllerMgr.sharedInstance.pushViewController("TUserInfoEditSelectViewController", parame: edit)
-
-}
-
-func pushTOtherUserViewController(userId:String) {
-     JDViewControllerMgr.sharedInstance.pushViewController("TOtherUserViewController", parame: userId)
-}
-func pushTSettingViewController() {
-     JDViewControllerMgr.sharedInstance.pushViewController("TSettingViewController", parame: nil)
-}
-
-func presentLoginViewController(isother:Bool)  {
-   JDViewControllerMgr.sharedInstance.presentViewController("JDLoginViewController", parame: isother, isNav: true)
-}
 
 func currentViewController()->UIViewController {
    return  JDViewControllerMgr.sharedInstance.mostAppropriateControllerView()!
@@ -132,30 +24,20 @@ func dismissViewController(viewController:UIViewController,animated:Bool) {
 }
 
 
-
-func jmpUserVc()  {
-    JDViewControllerMgr.sharedInstance.tab?.selectedIndex = 3
-}
-
-func jmpWork()  {
-//    JDViewControllerMgr.sharedInstance.tab?.tabBar.hidden = false
-    JDViewControllerMgr.sharedInstance.tab?.selectedIndex = 0
-}
-
 func tabbarView() -> UIView {
    return (JDViewControllerMgr.sharedInstance.tab?.view)!
 }
 
 private class JDViewControllerMgr {
      let Wnav : JDNaviGator
-     var tab:JDTabbarController?
+     var tab:UITabBarController?
     static let sharedInstance: JDViewControllerMgr = {
         return JDViewControllerMgr()
     }()
     
       init() {
         Wnav = JDNaviGator()
-        self.tab = UIApplication.sharedApplication().keyWindow?.rootViewController as? JDTabbarController
+        self.tab = UIApplication.sharedApplication().keyWindow?.rootViewController as? UITabBarController
     }
     
     func pushViewController(vcid:String,parame:AnyObject?){

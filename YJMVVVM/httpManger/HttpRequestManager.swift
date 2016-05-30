@@ -124,10 +124,10 @@ class HttpRequestManager {
     }
     
     func chuLiAccess_token() {
-         presentLoginViewController(true)
+//         presentLoginViewController(true)
     }
     func  selectSite()  {
-        presentTCityListController()
+//        presentTCityListController()
     }
     func getNewToken() {
         JDUserManager.sharedInstance.refreshToken(){

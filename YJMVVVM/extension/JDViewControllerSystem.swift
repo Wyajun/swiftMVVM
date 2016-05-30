@@ -8,14 +8,17 @@
 
 import UIKit
 import Foundation
+
+
+
 extension UIViewController {
+    
     
     func defaultVCSetting() {
         showDefaultLeftButton()
         self.view.backgroundColor = UIColor.systemViewBackgroundColor()
         self.automaticallyAdjustsScrollViewInsets = false
     }
-    
     
     func rightBarButtonPressed(right:UIButton){
         
@@ -38,7 +41,7 @@ extension UIViewController {
         let button =  createButtonWithTitle(title)
         button.setTitleColor(UIColor.systemZhuTiSe(), forState:.Normal);
         let barItem = UIBarButtonItem.init(customView: button)
-        button.addTarget(self, action: "rightBarButtonPressed:", forControlEvents: .TouchUpInside)
+        button.addTarget(self, action:sel_getUid("rightBarButtonPressed:"), forControlEvents: .TouchUpInside)
         self.navigationItem.rightBarButtonItem = barItem;
     }
     func showRightButtonWithImage(image:UIImage,high:UIImage?) {
@@ -53,14 +56,14 @@ extension UIViewController {
         }
         
         let barItem = UIBarButtonItem.init(customView: button)
-        button.addTarget(self, action: "rightBarButtonPressed:", forControlEvents: .TouchUpInside)
+        button.addTarget(self, action: sel_getUid("rightBarButtonPressed:"), forControlEvents: .TouchUpInside)
         self.navigationItem.rightBarButtonItem = barItem;
     }
     func showLeftButtonWithTitle(title:String) {
         let button =  createButtonWithTitle(title)
         button.setTitleColor(UIColorFromRGB(0x6c6c6c), forState: .Normal)
         let barItem = UIBarButtonItem.init(customView: button)
-        button.addTarget(self, action: "leftBarButtonPressed:", forControlEvents: .TouchUpInside)
+        button.addTarget(self, action: sel_getUid("leftBarButtonPressed:"), forControlEvents: .TouchUpInside)
         self.navigationItem.leftBarButtonItem = barItem;
     }
     func showLeftButtonWithImage(image:UIImage,high:UIImage?) {
@@ -74,7 +77,7 @@ extension UIViewController {
         }
         
         let barItem = UIBarButtonItem.init(customView: button)
-        button.addTarget(self, action: "leftBarButtonPressed:", forControlEvents: .TouchUpInside)
+        button.addTarget(self, action: sel_getUid("leftBarButtonPressed:"), forControlEvents: .TouchUpInside)
         self.navigationItem.leftBarButtonItem = barItem;
     }
     func customLeftButton()->UIButton? {

@@ -12,7 +12,7 @@ class JDTableHeaderView: UITableViewHeaderFooterView {
    private var title:String!
    private let titleLab:UILabel
     override init(reuseIdentifier: String?) {
-        titleLab = UILabel.creatLab("", font: UIFont.systemFontOfSize(12), titleColor: UIColor.systemWenZiHeader2())
+        titleLab = creatLab("", font: UIFont.systemFontOfSize(12), titleColor: UIColor.systemWenZiHeader2())
         super.init(reuseIdentifier: reuseIdentifier)
         self.contentView.addSubview(titleLab)
         titleLab.snp_makeConstraints { (make) -> Void in

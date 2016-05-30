@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (3.4.0)
+  - Kingfisher (1.9.3)
+  - MJRefresh (3.0.8)
+  - RxBlocking (2.5.0):
+    - RxSwift (~> 2.5)
+  - RxCocoa (2.5.0):
+    - RxSwift (~> 2.5)
+  - RxSwift (2.5.0)
+  - SnapKit (0.21.0)
+  - SwiftyUserDefaults (2.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - Kingfisher (~> 1.8)
+  - MJRefresh (~> 3.0.7)
+  - RxBlocking (~> 2.0)
+  - RxCocoa (~> 2.0)
+  - RxSwift (~> 2.0)
+  - SnapKit
+  - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  Kingfisher: 9e37d2a78a082dc123bfe8a16de65de85518daae
+  MJRefresh: fafde8f18f4afd66b434331a9beb67a6c0264056
+  RxBlocking: 595d9ab56dde6b00beaa5aba40e95b150d2135f1
+  RxCocoa: e1b1562e57a554d0fb2aabf9d71b637f177257c7
+  RxSwift: 402b41a50e922a0368fc14cb3bc9f4427920e8ae
+  SnapKit: 2756fe24b706367af224c9c508d2f9166d03354c
+  SwiftyUserDefaults: e7c8197a9d4068702e7f2406a968cae413b8de27
+
+COCOAPODS: 0.39.0

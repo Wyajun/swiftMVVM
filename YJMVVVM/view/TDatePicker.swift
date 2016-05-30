@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 class TDatePicker: UIControl {
     var startDate:NSDate
     var selectDate:((NSDate)->Void)!
